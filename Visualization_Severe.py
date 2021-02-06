@@ -171,8 +171,8 @@ def visualization(gamma,x_type,forecast_date):
 
 
     if MODE == 'normal':
-        plt.savefig('resultC_tranport_strategy/main/each_severe_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
-    plt.savefig('resultC_tranport_strategy/main/each_severe_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
+        plt.savefig('resultC_transport_strategy/main/each_severe_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
+    plt.savefig('resultC_transport_strategy/main/each_severe_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
     plt.close()
 
     # コスト評価
@@ -194,8 +194,8 @@ def visualization(gamma,x_type,forecast_date):
 
     plt.legend()
     if MODE == 'normal':
-        plt.savefig('resultC_tranport_strategy/cost/num_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
-    plt.savefig('resultC_tranport_strategy/cost/num_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
+        plt.savefig('resultC_transport_strategy/cost/num_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
+    plt.savefig('resultC_transport_strategy/cost/num_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
     plt.close()
 
 
@@ -219,8 +219,8 @@ def visualization(gamma,x_type,forecast_date):
 
     plt.ylabel('毎日の依頼コスト [km]')
     if MODE == 'normal':
-        plt.savefig('resultC_tranport_strategy/cost/cost_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
-    plt.savefig('resultC_tranport_strategy/cost/cost_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
+        plt.savefig('resultC_transport_strategy/cost/cost_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
+    plt.savefig('resultC_transport_strategy/cost/cost_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
     plt.close()
 
 
@@ -241,8 +241,8 @@ def visualization(gamma,x_type,forecast_date):
     plt.ylabel('重症者患者ごとのコスト [km/人]')
 
     if MODE == 'normal':
-        plt.savefig('resultC_tranport_strategy/cost/performance_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
-    plt.savefig('resultC_tranport_strategy/cost/performance_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
+        plt.savefig('resultC_transport_strategy/cost/performance_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 100)
+    plt.savefig('resultC_transport_strategy/cost/performance_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 100)
     plt.close()
 
 
@@ -253,8 +253,8 @@ def visualization(gamma,x_type,forecast_date):
     plt.ylabel('重症病床利用率の上限 [%]')
 
     if MODE == 'normal':
-        plt.savefig('resultC_tranport_strategy/cost/gammas_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 300)
-    plt.savefig('resultC_tranport_strategy/cost/gammas_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 300)
+        plt.savefig('resultC_transport_strategy/cost/gammas_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 300)
+    plt.savefig('resultC_transport_strategy/cost/gammas_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 300)
     plt.close()
 
 
@@ -289,8 +289,8 @@ def visualization(gamma,x_type,forecast_date):
         plt.ylabel('重症者の医療シェア数 [人]')
         plt.title(names[target]+'から他地域へのシェアリング')
         if MODE == 'normal':
-            plt.savefig('resultC_tranport_strategy/' + dirnames[target]+'/transport_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 300)
-        plt.savefig('resultC_tranport_strategy/' + dirnames[target]+'/transport_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 300)
+            plt.savefig('resultC_transport_strategy/' + dirnames[target]+'/transport_{0}_{1:03}.png'.format(x_type,int(gamma*100)),bbox_inches='tight',dpi = 300)
+        plt.savefig('resultC_transport_strategy/' + dirnames[target]+'/transport_{0}_{1:03}_{2}.png'.format(x_type,int(gamma*100),forecast_date),bbox_inches='tight',dpi = 300)
         plt.close()
 
 
