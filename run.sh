@@ -1,0 +1,8 @@
+python Preprocessing_Koro.py
+python Preprocessing_Google.py
+python Visualization_Google.py
+python Transport.py
+python Visualization_Severe.py
+python Transport_Hospital.py
+python Visualization_Hospital.py
+python make_check_list.py
