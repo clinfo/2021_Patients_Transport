@@ -1,4 +1,4 @@
-# Google の予測値を用いた，感染拡大に伴う重症者患者の医療シェアリングシミュレーション (更新日：2021-02-01)
+# Google の予測値を用いた，感染拡大に伴う重症者患者の医療シェアリングシミュレーション (更新日：2021-02-07)
 
 現在， 新型コロナウィルスの感染拡大が続いています．
 Google の 28 日間予測では， 以下のように拡大すると考えられています．
@@ -22,17 +22,17 @@ Google の 28 日間予測では， 以下のように拡大すると考えら�
 
 その結果，搬送によって，以下のように緩和されます．
 
-![img](resultC_tranport_strategy/main/each_severe_mean_080.png)
+![img](resultC_transport_strategy/main/each_severe_mean_080.png)
 
 また， 主要な県で必要な医療シェリング数とその重症者患者のシェアリング先は以下のようになります．
 
-<img src="resultC_tranport_strategy/JP-13東京都/transport_mean_080.png" width="320px">
+<img src="resultC_transport_strategy/JP-13東京都/transport_mean_080.png" width="320px">
 
-<img src="resultC_tranport_strategy/JP-23愛知県/transport_mean_080.png" width="320px">
+<img src="resultC_transport_strategy/JP-23愛知県/transport_mean_080.png" width="320px">
 
-<img src="resultC_tranport_strategy/JP-27大阪府/transport_mean_080.png" width="320px">
+<img src="resultC_transport_strategy/JP-27大阪府/transport_mean_080.png" width="320px">
 
-<img src="resultC_tranport_strategy/JP-28兵庫県/transport_mean_080.png" width="320px">
+<img src="resultC_transport_strategy/JP-28兵庫県/transport_mean_080.png" width="320px">
 
 
 ## 入院患者に関する結果
