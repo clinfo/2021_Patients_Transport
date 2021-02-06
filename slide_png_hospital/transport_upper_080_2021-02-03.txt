@@ -1,0 +1,5 @@
+resultD_transport_strategy_hospital/JP-11埼玉県/transport_upper_080_2021-02-03.png
+resultD_transport_strategy_hospital/JP-12千葉県/transport_upper_080_2021-02-03.png
+resultD_transport_strategy_hospital/JP-13東京都/transport_upper_080_2021-02-03.png
+resultD_transport_strategy_hospital/JP-40福岡県/transport_upper_080_2021-02-03.png
+resultD_transport_strategy_hospital/JP-47沖縄県/transport_upper_080_2021-02-03.png

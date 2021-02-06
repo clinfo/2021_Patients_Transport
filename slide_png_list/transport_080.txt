@@ -1,0 +1,2 @@
+resultC_tranport_strategy/JP-08茨城県/transport_mean_080_2021-02-03.png
+resultC_tranport_strategy/JP-13東京都/transport_mean_080_2021-02-03.png
