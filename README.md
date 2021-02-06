@@ -89,9 +89,7 @@ Appach 2.0
 - 厚労省, 療養状況等及び入院患者受入病床数等に関する調査について：https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html
 
 ## 奥野研究室作業者向け情報
-https://github.com/clinfo/2020_Patients_Transport/wiki/%E4%BD%9C%E6%A5%AD%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1
-
-
+https://github.com/clinfo/2021_Patients_Transport/wiki/%E4%BD%9C%E6%A5%AD%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1
 ## 解析方法の変更履歴
 
 **[2020-01-02]**
