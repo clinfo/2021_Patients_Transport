@@ -27,8 +27,8 @@ for i in range(len(filnames)):
     df_i[opt_types[i] + '_' + gammas[i] + '_' + dates[i]] = U[:14,:,:].sum(axis = 0).sum(0)
 
 
-df_u.to_csv('resultC_tranport_strategy/summary/export_num.csv')
-df_i.to_csv('resultC_tranport_strategy/summary/import_num.csv')
+df_u.to_csv('resultC_transport_strategy/summary/export_num.csv')
+df_i.to_csv('resultC_transport_strategy/summary/import_num.csv')
 
 
 dirC = 'resultC_tranport_strategy/'
