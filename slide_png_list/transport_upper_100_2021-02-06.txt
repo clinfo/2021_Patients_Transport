@@ -1,0 +1,2 @@
+resultC_tranport_strategy/JP-11埼玉県/transport_upper_100_2021-02-06.png
+resultC_tranport_strategy/JP-13東京都/transport_upper_100_2021-02-06.png
